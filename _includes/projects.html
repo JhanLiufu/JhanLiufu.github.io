@@ -1,5 +1,6 @@
 {%- assign posts = paginator.posts | default: site.posts -%}
-{% for post in posts %}
+{%- assign filtered_posts = posts | where: "exclude_from_pagination", nil -%}
+{% for post in filtered_posts %}
   <article>
     {% include meta.html post=post preview=true %}
     {{ post.excerpt }}
