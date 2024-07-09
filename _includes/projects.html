@@ -3,7 +3,14 @@
   <article>
     {% include meta.html post=post preview=true %}
     {{ post.excerpt }}
-    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
+    <div class="more">
+      <a href="{{ post.url | relative_url }}">
+        read more
+      </a>
+      <a href="https://github.com/JhanLiufu/HypernetBCI">
+        Repository
+      </a>
+    </div>
   </article>
 {% endfor %}
 
