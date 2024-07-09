@@ -1,6 +1,6 @@
 ---
 title: "Home"
-# permalink: "/about/"
+permalink: "/about/"
 layout: page
 ---
 
