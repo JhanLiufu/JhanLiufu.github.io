@@ -1,5 +1,5 @@
 {%- assign posts = paginator.posts | default: site.posts -%}
-{%- assign filtered_posts = posts | where: "exclude_from_pagination", true -%}
+{%- assign filtered_posts = posts | where: "exclude_from_pagination", false -%}
 {% for post in filtered_posts %}
   <article>
     {% include meta.html post=post preview=true %}
@@ -8,6 +8,9 @@
       <div class="more"> <a href="{{ post.url | relative_url }}"> Read more </a> </div>
       {% if post.repository_link %}
       <div class="more"> <a href="{{ post.repository_link }}"> View Repository </a> </div>
+      {% endif %}
+      {% if post.paper_link %}
+      <div class="more"> <a href="{{ post.paper_link }}"> View Publication </a> </div>
       {% endif %}
     </div>
   </article>
