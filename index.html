@@ -1,5 +1,10 @@
 ---
-title: "Home"
 layout: default
-sitemap: false
+title: "Projects"
 ---
+
+{% if site.show_excerpts %}
+  {% include projects.html %}
+{% else %}
+  {% include archive.html title="Posts" %}
+{% endif %}
