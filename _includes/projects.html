@@ -3,15 +3,17 @@
   <article>
     {% include meta.html post=post preview=true %}
     {{ post.excerpt }}
-    <div class="more">
-      <a href="{{ post.url | relative_url }}">
-        read more
-      </a>
-    </div>
-    <div class="more">
-      <a href="https://github.com/JhanLiufu/HypernetBCI">
-        read more
-      </a>
+    <div class="more-container">
+      <div class="more">
+        <a href="{{ post.url | relative_url }}">
+          read more
+        </a>
+      </div>
+      <div class="more">
+        <a href="https://github.com/JhanLiufu/HypernetBCI">
+          Code repository
+        </a>
+      </div>
     </div>
   </article>
 {% endfor %}
