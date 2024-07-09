@@ -1,6 +1,6 @@
 ---
 title: "Effects of Different Feedback Conditions on Sensorimotor Adaptation Revealed in a Mirror Reversal Paradigm"
-authors: Jingyue Xu*, Chen Yang*, Mengzhan Liufu*, Shuai Chang, Jinpeng Chen, Feng Lu, Alkis M. Hadjiosif, Adrian M. Haith, Xueqian Deng#, Juan Chen#
+authors: "Jingyue Xu*, Chen Yang*, <strong>Mengzhan Liufu*</strong>, Shuai Chang, Jinpeng Chen, Feng Lu, Alkis M. Hadjiosif, Adrian M. Haith, Xueqian Deng#, <strong>Juan Chen#</strong>"
 repository_link: "https://github.com/JhanLiufu/ImplicitAdaptation2021_Chen"
 layout: post
 exclude_from_pagination: false
