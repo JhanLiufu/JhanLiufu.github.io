@@ -3,7 +3,7 @@
 {% for post in filtered_posts %}
   <article>
     {% include meta.html post=post preview=true %}
-    {{ post.excerpt }}
+    {{ post.authors }}
     <div class="button-container" style="display: flex; gap: 10px;">
       <div class="more"> <a href="{{ post.url | relative_url }}"> Read more </a> </div>
       {% if post.repository_link %}

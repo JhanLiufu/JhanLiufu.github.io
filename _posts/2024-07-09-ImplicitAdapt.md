@@ -1,18 +1,10 @@
 ---
 title: "Effects of Different Feedback Conditions on Sensorimotor Adaptation Revealed in a Mirror Reversal Paradigm"
-excerpt: Implicit and explicit sensorimotor adaptation
-repository_link: "https://bitbucket.org/EMK_Lab/clc_parallel_detectors/src/multiprocess_detectors/"
+authors: Jingyue Xu*, Chen Yang*, Mengzhan Liufu*, Shuai Chang, Jinpeng Chen, Feng Lu, Alkis M. Hadjiosif, Adrian M. Haith, Xueqian Deng#, Juan Chen#
+repository_link: "https://github.com/JhanLiufu/ImplicitAdaptation2021_Chen"
 layout: post
 exclude_from_pagination: false
 paper_link: "https://www.scirp.org/journal/paperinformation?paperid=126865"
 ---
 
-Project page for implicit adaptation
-
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Humans are able to overcome sensory perturbations imposed on their movements through motor learning. One of the key mechanisms to accomplish this is sensorimotor adaptation, an implicit, error-driven learning mechanism. Past work on sensorimotor adaptation focused mainly on adaptation to rotated visual feedback—A paradigm known as visuomotor rotation. Recent studies have shown that sensorimotor adaptation can also occur under mirror-reversed visual feedback. In visuomotor rotation, sensorimotor adaptation can be driven by both endpoint and online feedback. However, it’s not been clear whether both kinds of feedback can similarly drive adaptation under a mirror reversed perturbation. We performed a study to establish what kinds of feedback can drive adaptation under mirror reversal. In the first two conditions, the participants were asked to ignore visual feedback. In the first condition, we provided mirror reversed online feedback and endpoint feedback. We reproduced previous findings showing that online feedback elicited adaptation under mirror reversal. In a second condition, we provided mirror reversed endpoint feedback. However, in the second condition, we found that endpoint feedback alone failed to elicit adaptation. In a third condition, we provided both types of feedback at the same time, but in a conflicting way: endpoint feedback was non-reversed while online feedback was mirror reversed. The participants were asked to ignore online visual feedback and try to hit the target with help from veridical endpoint feedback. In the third condition, in which veridical endpoint feedback and mirror reversed online feedback were provided, adaptation still occurred. Our results showed that endpoint feedback did not elicit adaptation under mirror reversal but online feedback did. This dissociation between effects of endpoint feedback and online feedback on adaptation under mirror reversal suggests that adaptation under these different kinds of feedback might in fact operate via distinct mechanisms.
