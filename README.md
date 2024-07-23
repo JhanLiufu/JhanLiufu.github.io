@@ -4,7 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-![headshot](liufu_photo.png)
+<img src="liufu_photo.jpg" alt="Headshot of [Your Name]">
 
 ## Installation
 
