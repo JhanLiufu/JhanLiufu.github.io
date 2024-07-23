@@ -4,10 +4,7 @@ permalink: "/about/"
 layout: page
 ---
 
-<div style="display: flex; align-items: center;">
-    <img src="assets/images/liufu_photo.png" alt="Headshot of Jhan Liufu">
-    <h2>About Me</h2>
-</div>
+![headshot](liufu_photo.png)
 
 ## Installation
 
