@@ -5,7 +5,7 @@ layout: page
 ---
 
 <div style="display: flex; align-items: center;">
-    <img src="assets/images/liufu_photo.png" alt="Headshot of Jhan Liufu" style="width: 150px; margin-right: 20px;">
+    <img src="assets/images/liufu_photo.png" alt="Headshot of Jhan Liufu">
     <h2>About Me</h2>
 </div>
 
