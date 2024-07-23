@@ -8,6 +8,12 @@ html
   padding: 0 calc(38% - 22em)
 
 body
+  font-family: $font-family
+  margin: 0
+  padding: 0
+  display: flex
+  justify-content: center
+  background-color: $light
   box-shadow: 0 0 .3em lighten($dark, 65%)
 
 body > header, body > footer
@@ -26,64 +32,57 @@ body > header, body > footer
   body, body > header, body > footer
     box-shadow: 0 0 0 1px lighten($dark, 8%)
 
-body
-font-family: $font-family
-margin: 0
-padding: 0
-display: flex
-justify-content: center
-background-color: $light
-
 .container
-width: 60%
-background: $light
-padding: 20px
-box-shadow: 0 0 10px rgba($dark, 0.1)
+  width: 60%
+  background: $light
+  padding: 20px
+  box-shadow: 0 0 10px rgba($dark, 0.1)
 
 .profile
-display: flex
-align-items: center
-margin-bottom: 20px
+  display: flex
+  align-items: center
+  margin-bottom: 20px
 
 .profile img
-border-radius: 50%
-width: 150px
-height: 150px
-margin-right: 20px
+  border-radius: 50%
+  width: 150px
+  height: 150px
+  margin-right: 20px
 
 .profile div
-font-size: $font-size
+  font-size: $font-size
 
 .profile div p
-margin: 0
+  margin: 0
 
 .about-me
-margin-bottom: 20px
+  margin-bottom: 20px
 
 .about-me h2
-font-size: calc(1.2rem + 0.2vw)
-font-weight: $heading-weight
-margin-bottom: 10px
+  font-size: calc(1.2rem + 0.2vw)
+  font-weight: $heading-weight
+  margin-bottom: 10px
 
 .about-me p
-font-size: $font-size
-line-height: $line-height
+  font-size: $font-size
+  line-height: $line-height
 
 .recent-news h3
-font-size: calc(1rem + 0.2vw)
-font-weight: $heading-weight
-margin-bottom: 10px
+  font-size: calc(1rem + 0.2vw)
+  font-weight: $heading-weight
+  margin-bottom: 10px
 
 .recent-news ul
-list-style: none
-padding: 0
+  list-style: none
+  padding: 0
 
 .recent-news li
-font-size: calc(0.9rem + 0.2vw)
-margin-bottom: 10px
+  font-size: calc(0.9rem + 0.2vw)
+  margin-bottom: 10px
 
 .contact a
-display: inline-block
-margin-right: 10px
-text-decoration: none
-color: $link-color
+  display: inline-block
+  margin-right: 10px
+  text-decoration: none
+  color: $link-color
+
