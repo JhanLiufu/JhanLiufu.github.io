@@ -4,6 +4,11 @@ permalink: "/about/"
 layout: page
 ---
 
+<div style="display: flex; align-items: center;">
+    <img src="assets/images/liufu_photo.png" alt="Headshot of Jhan Liufu" style="width: 150px; margin-right: 20px;">
+    <h2>About Me</h2>
+</div>
+
 ## Installation
 
 Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
